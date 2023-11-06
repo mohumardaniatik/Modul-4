@@ -1,6 +1,6 @@
-#Jawaban Tugas Modul 4
+# Jawaban Tugas Modul 4
 
-1.) 
+# 1.) 
 Cara agar algoritma BFS (Breadth-First Search) menentukan node ke 8,6, dan 7 yaitu sebagai berikut:
 1.	Pemilihan Node Awal: Algoritma BFS dimulai dengan memilih simpul awal dari graf. Dalam contoh kode di atas, simpul awal yang dipilih adalah `n3`. Oleh karena itu, BFS akan dimulai dari simpul `n3` dan   mencoba mencari jalur menuju simpul-simpul lain dalam graf.
 2.	Penjelajahan Secara Bertahap: Algoritma BFS menjelajahi graf secara bertahap. Ini berarti bahwa simpul-simpul yang bertetangga dengan simpul saat ini akan dijelajahi terlebih dahulu sebelum melanjutkan    ke simpul-simpul lain yang lebih jauh. Hal ini dicapai dengan menggunakan antrian (queue) untuk memproses simpul-simpul.
@@ -16,7 +16,7 @@ Jadi, pada akhirnya, algoritma akan menemukan simpul ke-8, 6, dan 7 dalam proses
 Kesimpulannya, algoritma BFS akan menemukan jalur terpendek dari simpul awal (`n3`) ke semua simpul dalam graf, termasuk simpul ke-8, 6, dan 7, dan atribut-atribut dalam setiap simpul akan merekam jalur-      jalur ini.
 
 
-2.) 
+# 2.) 
 Cara algoritma BFS dapat menemukan node 5 yaitu sebagai berikut:
 1.	Algoritma BFS dimulai dari simpul awal `n0` (dalam kode Anda). Anda menentukan simpul ini sebagai simpul awal yang akan digunakan untuk memulai pencarian.
 2.	Simpul awal, yaitu `n0`, diberi warna GRAY untuk menunjukkan bahwa simpul ini telah dikunjungi. Selain itu, jarak dari simpul ini (dalam hal ini 0) dan pendahulu (null) juga dicatat.
@@ -43,7 +43,7 @@ Jarak dari `n0` ke `n5` adalah 4 (0 -> 1 -> 2 -> 2 -> 1), dan `n4` adalah pendah
 Ini adalah cara algoritma BFS menemukan simpul `n5` dalam graf yang diberikan. Algoritma BFS menjelajahi graf secara berlapis dan mencari jalur terpendek dari simpul awal ke simpul tujuan.
 
 
-3.) 
+# 3.) 
 Cara algoritma BFS dapat menemukan node 9 yaitu sebagai berikut:
 1.	Awalnya, algoritma BFS dimulai dari simpul awal, yaitu `n1`.
 2.	Simpul awal `n1` diwarnai GRAY, jaraknya diatur ke 0, dan tidak memiliki pendahulu.
@@ -79,7 +79,7 @@ Cara algoritma BFS dapat menemukan node 9 yaitu sebagai berikut:
 24.	Pada akhirnya, hasil pencarian BFS adalah mencetak simpul-simpul yang telah dijelajahi. Simpul `n9` akan tercetak bersama dengan simpul-simpul lain yang menjadi jalur dari `n1` ke `n9`, dan hasilnya akan menunjukkan jarak dari `n1` ke `n9`. Jadi, algoritma BFS akan menemukan `n9` dan menunjukkan bahwa jaraknya adalah 3 (melalui `n1`, `n2`, `n5`).
 
 
-4.)
+# 4.)
 Cara algoritma BFS menemukan node C yaitu sebagai berikut:
 1.	Inisialisasi node awal (start node) dan node target (node yang ingin Anda temukan). Dalam kasus ini, node awal adalah node 6 (n6), dan node target adalah node 3 (n3).
 2.	Inisialisasi variabel penanda (flag) untuk menentukan apakah node 3 ditemukan. Misalnya, Anda dapat menggunakan variabel boolean dengan nilai awal "false".
